@@ -1,0 +1,220 @@
+*{
+	
+}
+p{
+	margin:0;
+}
+body{
+    background: #ffeeb2;
+    margin:0;
+}
+#contenedor{
+    width: 100%;
+    max-width: 1580px;
+    min-width: 600px;
+    margin: auto;
+}
+#ParteSuperior{
+    margin-top: -1rem;
+    width: 100%;
+    max-width:1580px;
+    height: 100px;
+    background-image:linear-gradient(#006e70,#00e1e5,#69e7e9);
+    position: fixed;
+}
+#contenedor #ParteSuperior #PSLogo{
+    width: 50%;
+    height: 50px;
+    float: left;
+    border: ;
+    margin: 10px;
+}
+.logo{
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+    border: 1px solid green;
+}
+#contenedor #ParteSuperior #PSLogo h2{
+}
+#contenedor #ParteSuperior #PSLogo #TLogo{
+    color: black;
+    border: 1px solid blue;
+}
+#buscar{
+    border: 1px solid red;
+    background: aliceblue;
+}
+.buscar{
+    width: 10px;
+}
+#buscar{
+    width: 150px;
+}
+#buscar h4{
+    width: 100px;
+
+}
+.icoMenu{
+    width: 50px;
+    max-width: 140px;
+    height: 50px;
+    border-radius: 5px;
+    padding: -10px;
+}
+.icoMenu:hover{
+    margin-right: 50%;
+    width: 140px;
+    background: aqua;
+}
+#header{
+    border: ;
+    margin: 0px;
+    width: 80px;
+    float: right;
+    background: ;
+    height: 50px;
+}
+#header:hover{
+    width:auto;
+    height: auto;
+    background-color:#5689e7;
+    border-radius:10px;
+    border:1px solid #adf;
+}
+#contenedor #ParteSuperior #header ul, ol{
+    list-style: none;
+}
+.nav{
+    padding: 5px 20px;
+    float: right;
+    text-align: center;
+}
+.nav li a{
+    height: ;
+    background-color: aqua;
+    color: black;
+    text-decoration: none;
+    display: block;
+    border: ;
+    margin-left: ;
+}
+.nav li a:hover{
+    background-color: aqua;
+    color: black;
+    text-decoration: none;
+    display: block;
+    border: ;
+    height: auto;
+    margin-left: ;
+}
+.nav2 li a{
+    background-color: aqua;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+.nav li a:hover{
+    background-color: aquamarine;
+    margin-left:;
+}
+.nav > li{
+    float: right;
+    width: auto;
+}
+.nav2{
+    display: none;
+    position: relative;
+    min-width: 140px;
+    float: right;
+}
+.nav li:hover > .nav2{
+    display: block;
+}
+.nav li .nav2 li{
+    position: relative;
+}
+.nav li .nav2{
+    top: 0;
+}
+/*-------Contenido------*/
+
+.main{
+    padding-top: 7rem;
+}
+#contenido{
+    width: 85%;
+    height: 150px;
+    align-content: center;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #86fad9;
+    border: 2px solid #aaa;
+    border-radius: 10px;
+}
+#ContenidoBlogIngredientes{
+    width: 85%;
+    height: auto;
+    align-content: center;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #86fad9;
+    border: 2px solid #aaa;
+    border-radius: 10px;
+}
+#presentacion{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+#ARTimagen{
+    width: 20%;
+    margin-top: -20px;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+.ARTimagen{
+    width: 100%;
+    max-height: 70px;
+    border-radius: 10px;
+}
+#ARTcontenido{
+    position: ;
+    width: 75%;
+    border: ;
+    margin-top: -60px;
+    margin-left: 25%;
+}
+.LeerMas{
+	background: #00f;
+	border: none;
+	border-radius: 10px;
+	color: #fff;
+	width: 100px;
+	height: 25px;
+}
+.Comentarios{
+	background: #00f;
+	border: none;
+	border-radius: 10px;
+	color: #fff;
+	width: 100px;
+	height: 25px;
+}
+.LeerMas:hover{
+	background: #0ff;
+	border: 3px solid red;
+	border-radius: 10px;
+	color: #00f;
+	width: 100px;
+	height: 25px;
+}
+.Comentarios:hover{
+	background: #0ff;
+	border: 3px solid red;
+	border-radius: 10px;
+	color: #00f;
+	width: 100px;
+	height: 25px;
+}
